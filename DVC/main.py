@@ -3,11 +3,11 @@ import os
 
 # Create a small dataset (example: student info)
 data = {
-    'ID': [1, 2, 3, 4, 5, 6, 7, 8 ,9, 10],
-    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Jenny', 'Quil', 'Sid', 'Freya', 'Henry'],
-    'Age': [20, 21, 19, 22, 20, 14, 39, 23, 21, 22],
-    'Branch': ['CSE', 'ECE', 'ME', 'CSE', 'IT', 'ME', 'CSE', 'EE', 'ME', 'ECE'],
-    'Marks': [85, 78, 90, 88, 76, 95, 35, 84, 55, 79]
+    'ID': [1, 2, 3, 4, 5, 6, 7, 8 ,9, 10, 11, 12, 13],
+    'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eve', 'Jenny', 'Quil', 'Sid', 'Freya', 'Henry', 'Monty', 'Neil', 'Patrick'],
+    'Age': [20, 21, 19, 22, 20, 14, 39, 23, 21, 22, 24, 30, 25],
+    'Branch': ['CSE', 'ECE', 'ME', 'CSE', 'IT', 'ME', 'CSE', 'EE', 'ME', 'ECE', 'CE', 'ME', 'IT'],
+    'Marks': [85, 78, 90, 88, 76, 95, 35, 84, 55, 79, 59, 58, 89]
 }
 
 # Convert to DataFrame
